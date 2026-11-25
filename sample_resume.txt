@@ -1,0 +1,21 @@
+AARAV SHARMA
+Email: aarav.example@email.com | Jaipur, India
+
+CAREER OBJECTIVE
+Computer Science undergraduate seeking an entry-level data analytics or machine learning opportunity.
+
+EDUCATION
+B.Tech Computer Science and Engineering
+
+TECHNICAL SKILLS
+Python, SQL, Java, Pandas, NumPy, Machine Learning, Scikit-learn, Statistics, Excel, Power BI, Git
+
+PROJECTS
+Sales Data Analysis: Used Python, Pandas and SQL to clean and analyze sales data. Created visual reports and identified trends.
+Student Performance Prediction: Built a basic machine learning model using Scikit-learn and evaluated its performance.
+
+COURSEWORK
+Data Structures, Database Management Systems, Operating Systems, Computer Networks, Artificial Intelligence
+
+SOFT SKILLS
+Communication, teamwork, problem solving and analytical thinking.

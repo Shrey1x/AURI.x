@@ -1,0 +1,9 @@
+job_id,job_title,company,location,required_skills,job_description
+1,Junior Python Developer,TechNova,Remote,"python,sql,git,api","Develop Python applications and REST APIs. Work with SQL databases, Git version control, testing and debugging."
+2,Data Analyst,InsightWorks,Jaipur,"python,sql,excel,power bi,statistics","Analyze datasets using Python, SQL and Excel. Build dashboards in Power BI and communicate statistical insights."
+3,Machine Learning Intern,NeuralEdge,Remote,"python,machine learning,pandas,scikit-learn,statistics","Prepare data and build machine learning models using Python, pandas and scikit-learn. Evaluate model performance."
+4,Frontend Developer,PixelCraft,Hybrid,"javascript,html,css,react,git","Build responsive web interfaces using HTML, CSS, JavaScript and React. Collaborate using Git."
+5,AI/NLP Intern,CogniLabs,Remote,"python,natural language processing,nlp,machine learning,api","Prototype NLP applications in Python, preprocess text, apply machine learning and integrate model APIs."
+6,Backend Developer,CloudRoute,Jaipur,"python,django,sql,api,docker","Build backend services with Python and Django. Design APIs, query SQL databases and use Docker."
+7,Business Intelligence Trainee,DataVista,Hybrid,"sql,excel,power bi,tableau,data visualization","Create reports and dashboards, query business data using SQL and present insights using BI tools."
+8,Computer Vision Intern,VisionForge,Remote,"python,computer vision,deep learning,tensorflow,numpy","Experiment with computer vision and deep learning workflows using Python, TensorFlow and NumPy."

@@ -1,0 +1,32 @@
+PROJECT TECHNICAL NOTES
+======================
+
+1. INPUT
+The user uploads a PDF, DOCX or TXT resume through Streamlit's file uploader.
+
+2. TEXT EXTRACTION
+PyMuPDF extracts text from PDF files. python-docx extracts paragraphs from DOCX files. TXT files are decoded as UTF-8.
+
+3. SKILL EXTRACTION
+The text is converted to lowercase and compared against a predefined dictionary of technical skills. Whole-term matching reduces accidental partial matches.
+
+4. JOB DATA
+The sample job dataset is stored in data/jobs.csv. Each row includes title, company, location, required skills and job description.
+
+5. NLP SIMILARITY
+TF-IDF converts the resume and job descriptions into numerical vectors. Cosine similarity measures the angle-based similarity between the resume vector and each job vector.
+
+6. FINAL SCORE
+Final Score = (0.70 x Text Similarity + 0.30 x Skill Coverage) x 100
+Skill Coverage = Number of required skills found in resume / Total required skills for that job.
+The score is a ranking aid, not a hiring probability.
+
+7. OUTPUT
+The application displays detected skills and the top five jobs ordered by score.
+
+LIMITATIONS
+- Skill dictionary is finite and may miss synonyms or new technologies.
+- Text extraction may fail on scanned/image-only PDFs.
+- TF-IDF is a statistical text-matching method; it does not understand meaning like a large language model.
+- Sample job data is illustrative, not live vacancies.
+- The tool should support human review, not make automated hiring decisions.
